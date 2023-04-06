@@ -16,7 +16,7 @@ a {
 
 body {
     font-family: Nunito,sans-serif;
-    background: #FFFFFB;
+    background: #9d9d93;
     position: relative;
 }
 
@@ -47,7 +47,7 @@ body {
 .main-authorization-form h1 {
     font-size: 36px;
     line-height: 49px;
-    color: #000000;
+    color: #444141;
     margin-bottom: 7px;
 }
 
@@ -55,7 +55,7 @@ body {
     display: block;
     font-size: 22px;
     line-height: 27px;
-    color: #636363;
+    color: #605656;
     margin-bottom: 42px;
 }
 
@@ -67,7 +67,7 @@ body {
 .form label {
     font-size: 16px;
     line-height: 27px;
-    color: #C6C6C4;
+    color: #60605a;
 }
 
 .form-input {
@@ -81,7 +81,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    color: #323232;
+    color: #1f1d1d;
 }
 
 .form-input:last-child {
@@ -99,7 +99,7 @@ body {
     align-items: center;
     font-size: 16px;
     line-height: 27px;
-    color: #636363;
+    color: #4f4444;
     margin-bottom: 40px;
 }
 
