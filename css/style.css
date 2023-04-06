@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url("../fonts/Nunito-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: Nunito,sans-serif;
+    background: #FFFFFB;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 27px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 112px;
+    position: relative;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 191px;
+}
+
+.main-authorization-form {
+    margin-right: 41px;
+    max-width: 496px;
+}
+
+.main-authorization-form h1 {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.main-authorization-form span {
+    display: block;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+.form {
+    display: block;
+    max-width: 452px;
+}
+
+.form label {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+.form-input:last-child {
+    margin-bottom: 30px;
+}
+
+.form-checkbox {
+    margin-right: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.form-label.form-check-box-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: block;
+    background: #DD3142;
+    border-radius: 40px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 210px;
+    padding: 21px 0 25px;
+    cursor: pointer;
+    margin: 0 auto 44px;
+}
+
+.new-account {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-align: center;
+}
+
+.main-image img {
+    margin-left: 11px;
+}
+
+.main-background {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    background: #F8F8FA;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.popup {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.popup-window {
+    width: 600px;
+    height: 250px;
+    background-color: #F8F8FA;
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px;
+    position: sticky;
+    top: 20%;
+}
+
+.popup-window h2 {
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
