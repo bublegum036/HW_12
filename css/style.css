@@ -72,11 +72,11 @@ body {
 
 .form-input {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 100%;
     outline: none;
     border: 0;
-    border-bottom: 1px solid #C6C6C4;
+    border-bottom: 1px solid #adada5;
     padding: 5px 0;
     font-weight: 700;
     font-size: 20px;
