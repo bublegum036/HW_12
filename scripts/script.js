@@ -121,5 +121,6 @@ window.onload = () => {
 }
 
 console.log('hw13');
+console.log('хахаха');
 console.log('Привет, девелопер');
 
